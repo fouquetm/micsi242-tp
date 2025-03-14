@@ -1,0 +1,14 @@
+resource_group_name            = "rg-mfolabs-micsi242"
+location                       = "canadacentral"
+short_name_location            = "cc"
+project_name                   = "mfolabs"
+vnet_address_space             = ["10.0.0.0/16"]
+subnet_capp_address_space      = ["10.0.0.0/24"]
+subnet_mssql_address_space     = ["10.0.1.0/24"]
+subnet_web_address_space       = ["10.0.2.0/24"]
+subnet_endpoints_address_space = ["10.0.3.0/24"]
+mssql_username                 = "mfolabssqladmin"
+dns_zone_name                  = "students.mfolabs.me"
+container_registry_server      = "xxx.azurecr.io"
+container_registry_username    = ""
+container_registry_password    = ""
